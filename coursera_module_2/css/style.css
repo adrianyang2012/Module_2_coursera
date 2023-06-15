@@ -6,8 +6,8 @@ h1 {
 }
 .item {
   box-sizing:border-box;
-  height:100px;
-  width:200px;
+  height:60px;
+  width:500px;
   background-color:blue;
   overflow:auto;
   float:left;
