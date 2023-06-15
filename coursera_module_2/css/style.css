@@ -4,6 +4,13 @@ h1 {
   margin-right:auto;
   font-size:
 }
+.label {
+	position:relative;
+    width:100px;
+    height:40px;
+    background-color:yellow;
+    right:-200px;
+}
 .item {
   box-sizing:border-box;
   height:100px;
