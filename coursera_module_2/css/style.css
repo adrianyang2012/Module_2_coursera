@@ -2,11 +2,8 @@
   height:100px;
   width:200px;
   background-color:blue;
+  overflow:auto;
   float:left;
-  padding: 20px;
+  margin: 20px;
 }
-h1 {
-  
-  margin-left:auto;
-  margin-right:auto;
-}
+
