@@ -14,7 +14,7 @@ h1 {
   margin: 30px;
   border-color:black;
 }
-@media (max-width: 992px and min_width:772px) {
+@media (max-width: 992px and min_width: 772px) {
   .sd {
     clear:left;
   }
