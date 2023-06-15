@@ -7,7 +7,7 @@ h1 {
 .item {
   box-sizing:border-box;
   height:100px;
-  width:200px;
+  width:300px;
   background-color:blue;
   overflow:auto;
   float:left;
