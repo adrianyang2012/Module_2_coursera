@@ -11,6 +11,7 @@ h1 {
   background-color:blue;
   overflow:auto;
   float:left;
-  border: 10px;
+  border: 30px;
+  border-color:black;
 }
 
