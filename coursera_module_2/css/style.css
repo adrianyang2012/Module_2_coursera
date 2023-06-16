@@ -1,3 +1,6 @@
+body {
+	background-color:aqua;
+}
 
 h1 {
   margin-left:auto;
@@ -14,7 +17,7 @@ h1 {
 .item {
   box-sizing:border-box;
   height:100px;
-  width:300px;
+  width:33%;
   background-color:blue;
   overflow:auto;
   float:left;
@@ -26,10 +29,15 @@ h1 {
   .sd {
     clear:left;
   }
+  .ss {
+	  width: 50%
+
 }
 @media (max-width: 771px) {
   .xs {
     clear:left;
   }
+  .ss {
+    width: 100%
 }
 
