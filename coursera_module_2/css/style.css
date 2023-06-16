@@ -8,11 +8,11 @@ h1 {
   font-size:
 }
 .label {
-    position:relative;
+    position:absolute;
     width:100px;
     height:40px;
     background-color:yellow;
-    right:-200px;
+    
 }
 .item {
   box-sizing:border-box;
@@ -28,9 +28,10 @@ h1 {
 @media (max-width: 992px and min_width: 772px) {
   .sd {
     clear:left;
+    width:100%
   }
   .ss {
-	  width: 50%
+	width: 40%
   }
 
 }
