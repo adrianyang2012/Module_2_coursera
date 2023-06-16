@@ -5,19 +5,20 @@ body {
 h1 {
   margin-left:auto;
   margin-right:auto;
-  font-size:
+
 }
 .label {
-    position:absolute;
+	float:right;
     width:100px;
     height:40px;
     background-color:yellow;
+
     
 }
 .item {
   box-sizing:border-box;
   height:100px;
-  width:33%;
+  width:25%;
   background-color:blue;
   overflow:auto;
   float:left;
@@ -25,22 +26,23 @@ h1 {
   border-color:black;
 }
 
-@media (max-width: 992px and min_width: 772px) {
+@media (max-width: 992px ) {
   .sd {
-    clear:left;
-    width:100%
+    width:40%;
+    
   }
   .ss {
-	width: 40%
+    
+    width:100%;
+    
   }
+  
 
 }
 @media (max-width: 771px) {
   .xs {
     clear:left;
-  }
-  .ss {
     width: 100%
-   }
-}
+  }
 
+}
